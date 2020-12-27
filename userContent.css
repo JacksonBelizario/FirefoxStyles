@@ -1,0 +1,52 @@
+/**
+ * Custom CSS for Sidebery [https://github.com/mbnuqw/sidebery]
+ */
+:root {
+  --tabs-pinned-width_: 56px;
+  --tabs-pinned-height_: 56px;
+  --tabs-fav-width: 30px;
+  --tabs-fav-height: 30px;
+}
+
+#root[data-pinned-tabs-position="left"] {
+  width: 80px !important;
+}
+
+.Sidebar .container {
+  overflow: hidden !important;
+}
+.Sidebar .PinnedDock {
+  width: var(--tabs-pinned-width_) !important;
+  background-size: 50px;
+}
+
+.Sidebar .PinnedTab {
+  width: var(--tabs-pinned-width_) !important;
+  height: var(--tabs-pinned-height_) !important;
+  margin: 0 4px;
+}
+
+.Sidebar .PinnedTab .fav {
+  width: var(--tabs-fav-width) !important;
+  height: var(--tabs-fav-height) !important;
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+.Sidebar [title^="Spotify"] .fav img,
+.Sidebar [title^="Slack"] .fav img,
+.Sidebar [title^="YouTube Music"] .fav img
+{
+  display: none !important;
+}
+
+.Sidebar [title^="Spotify"] .fav {
+  background-image: url("https://open.scdn.co/cdn/images/favicon32.a19b4f5b.png");
+}
+
+.Sidebar [title^="Slack"] .fav {
+  background-image: url("https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png");
+}
+.Sidebar [title^="YouTube Music"] .fav {
+  background-image: url("https://music.youtube.com/img/favicon_32.png");
+}

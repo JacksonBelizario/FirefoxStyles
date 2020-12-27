@@ -1,0 +1,77 @@
+:root {
+  --sidebar-min-width: 56px;
+  --sidebar-visible-width: 300px;
+}
+
+/*Hide Pinned tabs from tab browser */
+tab.tabbrowser-tab[pinned="true"] {
+  display: none;
+}
+
+/*Hide horizontal tabs at the top of the window*/
+#sidebar-header {
+  display: none;
+  overflow: hidden !important;
+}
+
+#sidebar {
+  overflow: hidden !important;
+  margin-bottom: -17px;
+}
+
+#sidebar,
+#sidebar-header {
+  position: relative !important;
+  min-width: var(--sidebar-min-width) !important;
+  max-width: var(--sidebar-min-width) !important;
+  transition: .2s ease .25s;
+  z-index:1;
+}
+#sidebar-box {
+    /* background-color: var(--sidebar-background-color); */
+    --bg: var(--toolbar-bgcolor) !important;
+    background-color: var(--toolbar-bgcolor) !important;
+}
+
+/*#tabbrowser-tabs {
+  visibility: collapse !important;
+}*/
+
+/*#sidebar-box #sidebar-header {
+  display: none !important;
+}*/
+
+/*#sidebar-box:hover :-moz-any(#sidebar,#sidebar-header) {
+  background-color: var(--toolbar-bgcolor) !important;
+  min-width: var(--sidebar-visible-width) !important;
+  max-width: var(--sidebar-visible-width) !important;
+  margin-right: calc((var(--sidebar-visible-width) - var(--sidebar-min-width)) * -1) !important;
+  z-index:1;
+  position: relative !important;
+  transition: .2s ease .25s;
+}*/
+
+/*#TabsToolbar > .toolbar-items,
+#TabsToolbar > .titlebar-spacer{ visibility: hidden }
+#nav-bar{ margin-top: -32px; margin-right: 20px; padding: 0px 150px 0px 0px !important; }*/
+
+/*
+#main-window #PersonalToolbar {
+  visibility: collapse !important;
+  opacity:0 !important;
+  margin-top: -23px !important;
+  transition: all 0.2s ease 0.2s !important;
+}
+
+#main-window[title^="Mozilla Firefox"] #PersonalToolbar,
+#main-window[title^="about:newtab"] #PersonalToolbar,
+#main-window[title^="New Tab"] #PersonalToolbar,
+#main-window[title^="Nova aba"] #PersonalToolbar,
+#main-window[title^="Firefox"] #PersonalToolbar,
+#main-window[title^="Nightly"] #PersonalToolbar {
+  visibility: visible !important;
+  margin-top: 0px !important;
+  transition: all 0.2s ease 0.2s !important;
+  opacity: 1 !important;
+}
+*/
