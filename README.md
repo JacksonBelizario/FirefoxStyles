@@ -5,6 +5,7 @@ My custom styles to organize my Firefox and improve my productivity with a focus
 ## Addons
 
 - [Sidebery](https://github.com/mbnuqw/sidebery)
+- [ntp_titler](https://addons.mozilla.org/pt-BR/firefox/addon/ntp_titler/)
 
 ## How to
 
@@ -52,3 +53,7 @@ Hit `Ctrl+Alt+Shift+I` or open 'Tools > WebDeveloper > Browser Toolbox'.
 ### How to view the changes?
 
 Restart Firefox after every modification for changes to take effect.  
+
+## Credits
+- [FirefoxCSSHacks](https://github.com/MrOtherGuy/firefox-csshacks)
+- [CustomCSSforFx](https://github.com/Aris-t2/CustomCSSforFx)

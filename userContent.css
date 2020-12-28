@@ -33,20 +33,13 @@
   background-repeat: no-repeat;
 }
 
-.Sidebar [title^="Spotify"] .fav img,
-.Sidebar [title^="Slack"] .fav img,
-.Sidebar [title^="YouTube Music"] .fav img
+.Sidebar [title^="Slack" i] .fav img,
+.Sidebar [title*="Spotify" i] .fav img,
+.Sidebar [title*="YouTube Music" i] .fav img
 {
   display: none !important;
 }
 
-.Sidebar [title^="Spotify"] .fav {
-  background-image: url("https://open.scdn.co/cdn/images/favicon32.a19b4f5b.png");
-}
-
-.Sidebar [title^="Slack"] .fav {
-  background-image: url("https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png");
-}
-.Sidebar [title^="YouTube Music"] .fav {
-  background-image: url("https://music.youtube.com/img/favicon_32.png");
-}
+.Sidebar [title^="Slack" i] .fav { background-image: url("https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png"); }
+.Sidebar [title*="Spotify" i] .fav { background-image: url("https://open.scdn.co/cdn/images/favicon32.a19b4f5b.png"); }
+.Sidebar [title*="YouTube Music" i] .fav { background-image: url("https://music.youtube.com/img/favicon_32.png"); }
