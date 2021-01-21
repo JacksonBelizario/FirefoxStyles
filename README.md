@@ -5,7 +5,7 @@ My custom styles to organize my Firefox and improve my productivity with a focus
 ## Addons
 
 - [Sidebery](https://github.com/mbnuqw/sidebery)
-- [ntp_titler](https://addons.mozilla.org/pt-BR/firefox/addon/ntp_titler/)
+- [~~ntp_titler~~](https://addons.mozilla.org/pt-BR/firefox/addon/ntp_titler/)
 
 ## How to
 

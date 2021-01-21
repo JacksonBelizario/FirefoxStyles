@@ -1,5 +1,5 @@
 :root {
-  --sidebar-min-width: 56px;
+  --sidebar-min-width: 52px;
   --sidebar-visible-width: 300px;
 }
 
@@ -67,7 +67,7 @@ tab.tabbrowser-tab[pinned="true"] {
   --uc-bm-padding: 4px; /* Vertical padding to be applied to bookmarks */
 }
 
-:root[uidensity="compact"] #PersonalToolbar{ --uc-bm-padding: 1px }
+/*:root[uidensity="compact"] #PersonalToolbar{ --uc-bm-padding: 1px }
 :root[uidensity="touch"] #PersonalToolbar{ --uc-bm-padding: 7px }
 
 #PersonalToolbar:not([customizing]){
@@ -77,9 +77,9 @@ tab.tabbrowser-tab[pinned="true"] {
 }
 
 /* The prefixes are set by the above linked extension */
-:root[titlepreface="NewTab - "] #PersonalToolbar,
+/*:root[titlepreface="NewTab - "] #PersonalToolbar,
 :root[titlepreface="Home - "] #PersonalToolbar,
 :root[titlepreface="PrivateBrowsing - "] #PersonalToolbar{
   visibility: visible;
   margin-bottom: 0px;
-}
+}*/
